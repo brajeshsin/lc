@@ -40,7 +40,7 @@ function About() {
         <br />
         <br />
         <h1 className="text-green-500 font-semibold text-xl">
-          Achievements
+          Achievement
         </h1>
         <span>
           [Degree/Certification],[Institution],[Year] [Degree/Certification]
