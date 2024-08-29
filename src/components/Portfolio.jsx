@@ -67,9 +67,10 @@ function Portfolio() {
                 <button className="mr-2 px-4 py-2 bg-blue-500 text-white rounded">
                   Video
                 </button>
-                <button className="px-4 py-2 bg-gray-500 text-white rounded">
-                  Source Code
-                </button>
+                {/* <button className="px-4 py-2 bg-gray-500 text-white rounded ">
+                 Source
+                </button> */}
+                <a href="https://tarality.com/"> Click</a>
               </div>
             </div>
           ))}

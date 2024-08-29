@@ -30,11 +30,9 @@ function Home() {
               />
             </div>
             <br />
+            <br />
             <p className="text-sm md:text-md text-justify">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit
-              vero officia quod harum animi natus ipsa maxime tempore assumenda
-              praesentium, necessitatibus, neque tempora repellendus veritati
-              quo nisi facere tenetur in.
+            I'm a software engineer specializing in frontend development, with a strong focus on React.js. My journey in the tech world has been fueled by a passion for creating visually appealing, responsive, and user-friendly interfaces that enhance the overall digital experience. Whether I'm crafting new features, optimizing performance, or ensuring seamless user interactions, my goal is to bring innovative ideas to life through code. Join me as I share insights, projects, and experiences from the ever-evolving world of frontend development!
             </p>
             <br />
             {/* social media */}
@@ -42,19 +40,20 @@ function Home() {
               <div>
                 <h1 className="font-bold">Available on</h1>
                 <ul className="flex space-x-5 mt-3 cursor-pointer">
+                 
                   <li>
-                    <a href="https://www.facebook.com/">
-                      <FaFacebook className="text-2xl cursor-pointer hover:scale-125 duration-300" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://in.linkedin.com/">
+                    <a href="https://www.linkedin.com/in/brajesh-kumar-singh-328413229/">
                       <FaLinkedin className="text-2xl cursor-pointer hover:scale-125 duration-300" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.instagram.com/">
+                    <a href="https://www.instagram.com/__brajesh_singh__?igsh=MXByMXBhZTE3c2p2cQ==">
                       <FaInstagramSquare className="text-2xl cursor-pointer hover:scale-125 duration-300" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.facebook.com/">
+                      <FaFacebook className="text-2xl cursor-pointer hover:scale-125 duration-300" />
                     </a>
                   </li>
                   <li>
