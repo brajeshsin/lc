@@ -3,6 +3,7 @@ import pic from "../../public/photo.avif";
 import { GrMenu } from "react-icons/gr";
 import { IoMdClose } from "react-icons/io";
 import pc from "../../public/d.jpeg"
+import { Link } from "react-scroll";
 
 
 function Navbar() {
@@ -50,7 +51,15 @@ function Navbar() {
                   className="hover:scale-105 duration-200 cursor-pointer"
                   key={id}
                 >
-                  {text}
+                <Link to={text}
+                smooth={true}
+                duration={500}
+                offset={-70}
+                activeClass="active"
+                >
+                {text}
+                </Link>
+                  
                 </li>
               ))}
             </ul>
@@ -61,7 +70,7 @@ function Navbar() {
         </div>
         {/* mobile */}
         {menu && (
-          <div>
+          <div className="bg-white">
             <ul
               className="md:hidden 
             flex flex-col
@@ -76,7 +85,16 @@ function Navbar() {
                   className="hover:scale-105 duration-200 cursor-pointer font-semibold"
                   key={id}
                 >
-                  {text}
+                  <Link
+                  onClick={() => setMenu(!menu)}
+                  to={text}
+                smooth={true}
+                duration={500}
+                offset={-70}
+                activeClass="active"
+                >
+                {text}
+                </Link>
                 </li>
               ))}
             </ul>

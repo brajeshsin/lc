@@ -42,7 +42,9 @@ const Experience = () => {
   ];
 
   return (
-    <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 mt-10 my-16">
+    <div 
+    name="Experience"
+    className="max-w-screen-2xl container mx-auto px-4 md:px-20 mt-10 my-16">
       <div>
         <h1 className="text-3xl font-bold mb-5">Experience</h1>
         <p>Less than 1 Year</p>
