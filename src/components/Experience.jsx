@@ -1,8 +1,8 @@
 import React from "react";
 import java from "../../public/java.png";
 import python from "../../public/python.webp";
-import nodejs from "../../public/node.png";
-import mongoDB from "../../public/mongodb.jpg";
+// import nodejs from "../../public/node.png";
+// import mongo from "../../public/mongo.jpg";
 import javascript from "../../public/javascript.png";
 import reactjs from "../../public/reactjs.png";
 import oracle from "../../public/oracle.png";

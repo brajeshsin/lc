@@ -2,7 +2,7 @@ import React from "react";
 import java from "../../public/java.png";
 import python from "../../public/python.webp";
 import nodejs from "../../public/node.png";
-import mongoDB from "../../public/mongodb.jpg";
+import mongoDB from "../../public/mongodb.gif";
 import javascript from "../../public/javascript.png";
 import reactjs from "../../public/reactjs.png";
 import oracle from "../../public/oracle.png";
@@ -17,7 +17,7 @@ function Portfolio() {
     {
       id: 1,
       logo: mongoDB,
-      name: "MongoDB",
+      name: "Tarality",
     },
     {
       id: 2,
@@ -62,7 +62,8 @@ function Portfolio() {
               <div>
                 <div className="font-bold text-xl">{name}</div>
                 <p className="text-gray-700">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                The Most Trusted Cryptocurrency
+                Platform
                 </p>
               </div>
               <div className="mt-2">

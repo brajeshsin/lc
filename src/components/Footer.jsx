@@ -28,8 +28,9 @@ const Footer = () => {
         </ul>
         </div>
         <div className='mt-8 border-t border-gray-700 pt-8 flex flex-col items-center'>
-        <p className='text-sm'>&copy;2024 Your Company. All rights reserved.</p>
-        <p className='text-sm'>Made by Brajesh Singh</p>
+        <p className='text-sm'>&copy;2024 Designed & Developed by <span className='text-red-500 font-semibold text-xl'>BrajesH SingH</span>
+        </p>
+        {/* <p className='text-sm'>Made by Brajesh Singh</p> */}
         
         </div>
         </div>

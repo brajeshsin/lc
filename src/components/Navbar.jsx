@@ -39,13 +39,17 @@ function Navbar() {
         <div className="flex justify-between items-center h-16 ">
           <div className="flex space-x-2">
             <img src={pc} className="h-12 w-12 rounded-full" alt="" />
-            <h1 className="font-semibold text-xl cursor-pointer">
+            <h1 className="font-semibold text-xl cursor-pointer" >
               Brajes<span className="text-green-500 text-2xl">H</span>
-              <p className="text-sm"> Software Engineer</p>
+              {/* <p className="text-sm"> Software Engineer</p> */}
+              <p className="text-sm animate-color-change">
+  Software Engineer
+</p>
+
             </h1>
           </div>
           <div>
-            <ul className="hidden md:flex space-x-8">
+            <ul className="hidden md:flex space-x-8" >
               {navItems.map(({ id, text }) => (
                 <li
                   className="hover:scale-105 duration-200 cursor-pointer"
@@ -81,10 +85,10 @@ function Navbar() {
                text-xl"
             >
               {navItems.map(({ id, text }) => (
-                <li
-                  className="hover:scale-105 duration-200 cursor-pointer font-semibold"
-                  key={id}
-                >
+              <li
+              className="hover:scale-105 duration-200 cursor-pointer font-semibold hover:text-red-500"
+              key={id}
+            >
                   <Link
                   onClick={() => setMenu(!menu)}
                   to={text}

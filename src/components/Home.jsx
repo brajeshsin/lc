@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook } from "react-icons/fa";
+import { FaFacebook, FaWhatsapp } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
@@ -10,6 +10,8 @@ import { FaNode } from "react-icons/fa";
 import { ReactTyped } from "react-typed";
 import pic from "../../public/photo.avif";
 import pc from "../../public/d.jpeg"
+import { MdEmail } from "react-icons/md";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 function Home() {
   return (
@@ -34,14 +36,18 @@ function Home() {
             <br />
             <br />
             <p className="text-sm md:text-md text-justify">
-            I'm a software engineer specializing in frontend development, with a strong focus on React.js. My journey in the tech world has been fueled by a passion for creating visually appealing, responsive, and user-friendly interfaces that enhance the overall digital experience. Whether I'm crafting new features, optimizing performance, or ensuring seamless user interactions, my goal is to bring innovative ideas to life through code. Join me as I share insights, projects, and experiences from the ever-evolving world of frontend development!
-            </p>
+            I'm a frontend software engineer specializing in React.js, passionate about crafting visually appealing, responsive, and user-friendly interfaces. My focus is on building innovative features, optimizing performance, and enhancing user experiences. Follow along as I share insights, projects, and experiences in the dynamic world of frontend development!</p>
             <br />
             {/* social media */}
             <div className="flex flex-col md:flex-row justify-between space-y-6 md:space-y-0 items-center">
               <div>
                 <h1 className="font-bold">Available on</h1>
                 <ul className="flex space-x-5 mt-3 cursor-pointer">
+                <li>
+                    <a href="https://wa.link/v55d0h">
+                      <IoLogoWhatsapp className="text-2xl cursor-pointer hover:scale-125 duration-300" />
+                    </a>
+                  </li>
                  
                   <li>
                     <a href="https://www.linkedin.com/in/brajesh-kumar-singh-328413229/">
@@ -54,8 +60,8 @@ function Home() {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.facebook.com/">
-                      <FaFacebook className="text-2xl cursor-pointer hover:scale-125 duration-300" />
+                    <a  href="mailto:brajeshsingh2911@gmail.com">
+                      <MdEmail className="text-2xl cursor-pointer hover:scale-125 duration-300" />
                     </a>
                   </li>
                   <li>
