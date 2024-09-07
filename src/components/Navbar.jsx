@@ -34,7 +34,7 @@ function Navbar() {
     <>
       <div
         className="max-w-screen-2xl container mx-auto px-4 md:px-20  h-16 shadow-md 
-      fixed top-0 left-0 right-0 bg-white"
+      fixed top-0 left-0 right-0 bg-white" style={{zIndex:9}}
       >
         <div className="flex justify-between items-center h-16 ">
           <div className="flex space-x-2">
