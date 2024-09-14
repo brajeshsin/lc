@@ -75,7 +75,7 @@ function About() {
 <strong> Role: </strong>
 <span className="text-red-600">Frontend Developer (React.js) </span> 
 <h1>
-I began my journey at Tarality Ecosystem Private Limited, a leading blockchain company, in February 2024. Initially, I was involved in testing various aspects of our platform for 3 months, focusing on manual testing, API testing, and user acceptance testing (UAT). This experience provided me with a solid foundation in understanding the intricacies of the blockchain ecosystem.
+I began my journey at Tarality Ecosystem Private Limited, a leading blockchain company, in February 2024. Initially, I was involved in testing various aspects of our platform for 2 months, focusing on manual testing, API testing, and user acceptance testing (UAT). This experience provided me with a solid foundation in understanding the intricacies of the blockchain ecosystem.
 
 Following my tenure in testing, I transitioned to the role of a React.js frontend developer. In this position, I am responsible for developing and maintaining the user interface of our blockchain-based applications and web apps, ensuring a seamless and intuitive experience for users. My work involves collaborating closely with the backend team, implementing responsive designs, optimizing performance, and integrating new features to enhance the overall functionality of our platform.    
 </h1>   
