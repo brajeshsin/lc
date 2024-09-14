@@ -12,6 +12,9 @@ import pic from "../../public/photo.avif";
 import pc from "../../public/d.jpeg"
 import { MdEmail } from "react-icons/md";
 import { IoLogoWhatsapp } from "react-icons/io";
+import { FaHtml5 } from "react-icons/fa6";
+import { FaCss3 } from "react-icons/fa6";
+import { TbBrandJavascript } from "react-icons/tb";
 
 function Home() {
   return (
@@ -45,28 +48,28 @@ function Home() {
                 <ul className="flex space-x-5 mt-3 cursor-pointer">
                 <li>
                     <a href="https://wa.link/v55d0h">
-                      <IoLogoWhatsapp className="text-2xl cursor-pointer hover:scale-125 duration-300" />
+                      <IoLogoWhatsapp className="text-2xl cursor-pointer hover:scale-125 duration-300  text-red-700" />
                     </a>
                   </li>
                  
                   <li>
                     <a href="https://www.linkedin.com/in/brajesh-kumar-singh-328413229/">
-                      <FaLinkedin className="text-2xl cursor-pointer hover:scale-125 duration-300" />
+                      <FaLinkedin className="text-2xl cursor-pointer hover:scale-125 duration-300  text-red-700" />
                     </a>
                   </li>
                   <li>
                     <a href="https://www.instagram.com/__brajesh_singh__?igsh=MXByMXBhZTE3c2p2cQ==">
-                      <FaInstagramSquare className="text-2xl cursor-pointer hover:scale-125 duration-300" />
+                      <FaInstagramSquare className="text-2xl cursor-pointer hover:scale-125 duration-300  text-red-700" />
                     </a>
                   </li>
                   <li>
                     <a  href="mailto:brajeshsingh2911@gmail.com">
-                      <MdEmail className="text-2xl cursor-pointer hover:scale-125 duration-300" />
+                      <MdEmail className="text-2xl cursor-pointer hover:scale-125 duration-300  text-red-700" />
                     </a>
                   </li>
                   <li>
                     <a href="https://web.telegram.org/k/">
-                      <FaTelegram className="text-2xl cursor-pointer hover:scale-125 duration-300" />
+                      <FaTelegram className="text-2xl cursor-pointer hover:scale-125 duration-300  text-red-700" />
                     </a>
                   </li>
                 </ul>
@@ -74,10 +77,10 @@ function Home() {
               <div>
                 <h1 className="font-bold">Currently working on</h1>
                 <div className="flex space-x-5 mt-3 cursor-pointer">
-                  <SiMongodb className="text-xl md:text-3xl hover:scale-150 duration-200 cursor-pointer" />
-                  <SiExpress className="text-xl md:text-3x hover:scale-150 duration-200 cursor-pointer" />
-                  <FaReact className="text-xl md:text-3xl hover:scale-150 duration-200 cursor-pointer" />
-                  <FaNode className="text-xl md:text-3xl hover:scale-150 duration-200 cursor-pointer" />
+                  <FaHtml5 className="text-xl md:text-3xl hover:scale-150 duration-200 cursor-pointer text-red-700" />
+                  <FaCss3 className="text-xl md:text-3x hover:scale-150 duration-200 cursor-pointe  text-red-700" />
+                  <FaReact className="text-xl md:text-3xl hover:scale-150 duration-200 cursor-pointer  text-red-700" />
+                  <TbBrandJavascript className="text-xl md:text-3xl hover:scale-150 duration-200 cursor-pointer  text-red-700  text-red-700" />
                 </div>
               </div>
             </div>

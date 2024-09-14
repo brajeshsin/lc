@@ -47,7 +47,7 @@ const Experience = () => {
     className="max-w-screen-2xl container mx-auto px-4 md:px-20 mt-10 my-16">
       <div>
         <h1 className="text-3xl font-bold mb-5">Experience</h1>
-        <p>Less than 1 Year</p>
+        {/* <p>Less than 1 Year</p> */}
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-7 my-3">
           {cardItem.map(({ id, logo, name }) => (
             <div
