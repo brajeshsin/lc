@@ -25,7 +25,8 @@ function Portfolio() {
       id: 2,
       logo: token,
       name: "Token Creator",
-      description: " Generate and deploy cryptocurrency tokens on blockchain networks.",
+      description:
+        " Generate and deploy cryptocurrency tokens on blockchain networks.",
       projectLink: "https://web-dapp.tarality.io/",
     },
     {
@@ -63,14 +64,14 @@ function Portfolio() {
           {cardItem.map(({ id, logo, name, description, projectLink }) => (
             <div
               key={id}
-              className="mt-4 md:w-[300px] md:h-[300px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-105 duration-300 "
+              className="mt-4 md:w-[300px] md:h-[300px] border-[2px] shadow-lg p-1 cursor-pointer hover:scale-105 duration-300 rounded-xl flex flex-col items-center justify-center"
             >
-              <img 
+              <img
                 src={logo}
                 alt={name}
                 className="h-[120px] w-[120px] p-1 rounded-full border-[2px]"
               />
-              <div>
+              <div className="text-center">
                 <div className="font-bold text-xl">{name}</div>
                 <p className="text-gray-700">{description}</p>
               </div>
@@ -79,7 +80,7 @@ function Portfolio() {
                   href={projectLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-6 py-2 bg-blue-500 text-white rounded text-center"
+                  className="px-6 py-2 bg-red-700 text-white text-center rounded-3xl"
                 >
                   Click
                 </a>
